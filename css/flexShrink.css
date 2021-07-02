@@ -1,0 +1,44 @@
+body {
+  background-color: #232b2b;
+  color: #3fc5f0;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dotted #3fc5f0;
+}
+
+.flex-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 600px;
+  border: 1px dotted #3fc5f0;
+}
+.shade {
+  border-color: #3fc5f0;
+  background-color: RGBA(63, 197, 240, 0.1);
+}
+
+.shade:hover {
+  background-color: RGBA(63, 197, 240, 0.4);
+}
+
+.flex-container > * {
+  width: 250px;
+}
+
+.sample1 > * {
+  flex-shrink: 1;
+}
+
+.sample2 div:nth-child(2) {
+  flex-shrink: 0;
+}
+.sample3 div:nth-child(2) {
+  flex-shrink: 2;
+}
+.sample3 div:nth-child(3) {
+  flex-shrink: 3;
+}

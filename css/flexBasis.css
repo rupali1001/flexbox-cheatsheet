@@ -1,0 +1,32 @@
+body {
+  background-color: #1a2849;
+  color: #ffacfc;
+}
+.head-container {
+  border: 1px dotted #ffacfc;
+}
+.flex-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px dotted #ffacfc;
+}
+.shade {
+  border-color: #ffacfc;
+  background-color: RGBA(255, 172, 252, 0.1);
+}
+.shade:hover {
+  background-color: RGBA(255, 172, 252, 0.4);
+}
+
+.sample1 div:nth-child(2) {
+  flex-basis: 200px;
+}
+.sample2 > * {
+  flex-basis: 33%;
+}
+.sample3 > * {
+  flex: 0 1 auto;
+}
+.sample4 > * {
+  flex: 1 1 25%;
+}

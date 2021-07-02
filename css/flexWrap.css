@@ -1,0 +1,28 @@
+body {
+  background-color: #232b2b;
+  /* #ff9d76 */
+  color: #ff9d76;
+}
+.head-container {
+  border: 1px dotted #;
+}
+.flex-container {
+  flex-direction: row;
+  border: 1px dotted #ff9d76;
+}
+.shade {
+  border-color: #ff9d76;
+  background-color: RGBA(255, 157, 118, 0.1);
+}
+.shade:hover {
+  background-color: RGBA(255, 157, 118, 0.5);
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}

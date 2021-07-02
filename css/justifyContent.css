@@ -1,0 +1,49 @@
+body {
+  background-color: #232b2b;
+  color: #e5a298;
+}
+.head-container {
+  border: 1px dotted #e5a298;
+}
+.flex-container {
+  flex-direction: row;
+  border: 1px dotted #e5a298;
+}
+.shade {
+  background-color: rgba(229, 162, 152, 0.2);
+  border-color: #e5a298;
+}
+.shade:hover {
+  background-color: rgba(229, 162, 152, 0.5);
+}
+.start {
+  justify-content: flex-start;
+}
+.end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+
+.space-around-row {
+  justify-content: space-around;
+}
+
+.column-center {
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+}
+
+.space-around {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.space-between {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+}

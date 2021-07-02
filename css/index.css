@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  /* background-color: #232b2b; */
+}
+
+.container > * {
+  color: #d8f013;
+  background-color: rgba(216, 240, 19, 0.1);
+  border: 1px solid #d8f013;
+  padding: 20px;
+  margin: 5px;
+  justify-content: space-between;
+  text-align: center;
+  min-width: 250px;
+  flex-grow: 1;
+  align-content: space-between;
+}
+
+.container > *:hover {
+  background-color: rgba(216, 240, 19, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}

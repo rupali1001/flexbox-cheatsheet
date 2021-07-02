@@ -1,0 +1,44 @@
+body {
+  background-color: #23232b;
+  /* #d89cf6 */
+  color: #d89cf6;
+}
+.head-container {
+  border: 1px dotted #d89cf6;
+}
+
+.flex-container {
+  height: 200px;
+  border: 1px dotted #d89cf6;
+}
+.shade {
+  border-color: #d89cf6;
+  background-color: RGBA(216, 156, 246, 0.1);
+}
+.shade:hover {
+  background-color: RGBA(216, 156, 246, 0.5);
+}
+.start {
+  align-items: flex-start;
+}
+.end {
+  align-items: flex-end;
+}
+.center {
+  align-items: center;
+}
+.stretch {
+  align-items: stretch;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.baseline div:nth-child(2) {
+  font-size: 40px;
+}
+
+.baseline div:nth-child(4) {
+  font-size: 50px;
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: #232b2b;
+  color: #50d890;
+  /* #50d890 */
+}
+.head-container {
+  border: 1px dotted #50d890;
+}
+.flex-container {
+  height: 500px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px dotted #50d890;
+}
+.shade {
+  border-color: #50d890;
+  background-color: RGBA(80, 216, 144, 0.1);
+}
+
+.shade:hover {
+  background-color: RGBA(80, 216, 144, 0.4);
+}
+
+.start {
+  align-content: flex-start;
+}
+.end {
+  align-content: flex-end;
+}
+.center {
+  align-content: center;
+}
+.space-around {
+  align-content: space-around;
+}
+.space-between {
+  align-content: space-between;
+}

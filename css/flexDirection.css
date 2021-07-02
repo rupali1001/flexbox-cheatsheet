@@ -1,0 +1,30 @@
+body {
+  background-color: #cc0e74;
+  background-color: #232b2b;
+  color: #cc0e74;
+}
+.head-container {
+  border: 1px dotted #cc0e74;
+}
+
+.flex-container {
+  display: flex;
+  border: 1px dotted #cc0e74;
+}
+.shade {
+  background-color: rgba(204, 14, 116, 0.1);
+  border-color: #cc0e74;
+}
+
+.shade:hover {
+  background-color: rgba(204, 14, 116, 0.3);
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  flex-direction: column;
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
